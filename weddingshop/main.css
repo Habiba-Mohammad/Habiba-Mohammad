@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(241, 239, 239);
+}
+.container{
+    margin-left: 10%;
+}
+
+.icon{
+color: rgb(179, 58, 58);
+position: relative;
+left: 2%; 
+}
+.items{
+margin-left: 2%;
+color: green;
+
+}
+
+.added{
+    color: white;
+    background-color: green;
+}
+.mainCart{
+    width: 50%;
+    margin-left: 20%;
+    position: relative;
+    top:70px;
+}
+.cartItems{
+
+position: absolute;
+right: 20px;
+top: 0px;;
+}
+footer{
+    margin-bottom: 0px;
+}
+@media only screen and (max-width: 1000px) {
+    .icon {
+    visibility: hidden;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    nav {
+    display: block;
+    }
+  }
